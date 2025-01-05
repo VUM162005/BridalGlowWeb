@@ -1,6 +1,4 @@
 
-# README for Glamup By Ishita Website
-
 ## Overview
 Glamup By Ishita is a stylish website showcasing makeup and hairstyling masterclasses. Built with HTML and CSS, it offers a user-friendly layout and elegant visuals.
 
