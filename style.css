@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #e0fb84;
+    background-image: radial-gradient(#ecff7e 0%, #e5ebc1 100%);
+}
+
+.navContainer {
+    width: 100vw;
+    background-image: linear-gradient(0deg, #d7dbd5 0%, #74f1a4 100%);
+    border: #00a13e 2px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(17, 82, 144);
+    min-height: 50px;
+}
+
+#Logo {
+    font-family: "Alegreya SC", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(#000000, #c10b0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+
+
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    justify-content: space-between;
+}
+.rightbox{
+    position : relative;
+    transition: all 0.2s linear;
+}
+.rightbox img{
+    height: 300px;
+    border-radius: 10px;
+    width : 250px;
+    box-shadow: 10px 10px 25px rgb(11, 30, 5);
+    
+}
+.rightbox:hover{
+    transform: scale(1.1);
+}
+.rightbox .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: #221c1ca3;
+    border-radius: 10px;
+    color: #c5dbe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.rightbox .overlay:hover{
+    opacity: 1;
+}
+a {
+    text-decoration: none;
+    color: rgb(38, 120, 89);
+}
+
+.contentBox{
+    width : 80%;
+    margin: auto;
+}
+.footerBox{
+    width:100vw;
+    font-size: 1.2rem;
+    background-image: linear-gradient(0deg, #d7dbd5 0%, #74f1a4 100%);
+    border: #00a13e 2px solid;
+    border-radius: 2px;
+    text-align: center;
+}
